@@ -7,7 +7,7 @@ def twitter_setup(): # Function to set-up credentials
 
     # Authentication
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET) # Authenticate with API's key. Provided by apps.twitter.com
-    auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET) # Personal access key. Here check that your bot is not "read-only" mode, if you change to read-write, remember regenerate the access token.
+    auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET) # Personal access key. Remember to check that your bot is not "read-only" mode, if you change to read-write, remember regenerate the access token.
 
     # Generating API Object
     api = tweepy.API(auth) # API function takes all auth parameters, then log in.
