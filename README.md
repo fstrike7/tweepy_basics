@@ -6,7 +6,9 @@ With this repo you'll learn basic tweepy configuration and deploy, to configure 
 
 ## Configuration
 To [install](https://docs.tweepy.org/en/latest/install.html) tweepy into your system, you'll need to execute the following code:
-> pip install tweepy
+```py
+pip install tweepy
+```
 Then you'll need to create an [app](apps.twitter.com) to get access to credentials, needed to authenticate your app.
 
 After that, you'll be ready to make your own coding.
